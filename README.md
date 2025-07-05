@@ -36,7 +36,7 @@ Author
 
 Martina Culpo
 
-🔗 GitHub
+[🔗 GitHub](https://github.com/MartinaCulpo)
 
 
 
