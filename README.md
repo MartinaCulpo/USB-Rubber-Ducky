@@ -32,6 +32,12 @@ This work demonstrates that standard classifiers are effective at spotting naive
 
 
 
+Author
+Martina Culpo
+🔗 GitHub
+
+
+
 Disclaimer
 
 This project is intended for academic research and ethical use only. Unauthorized use or deployment of input injection tools is strictly prohibited. The author assumes no responsibility for misuse.
