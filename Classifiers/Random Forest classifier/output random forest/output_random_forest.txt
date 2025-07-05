@@ -1,0 +1,41 @@
+✅ Accuracy: 0.9610265298994942
+
+📊 Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.98      0.89      0.93     22396
+           1       0.96      0.99      0.97     54913
+
+    accuracy                           0.96     77309
+   macro avg       0.97      0.94      0.95     77309
+weighted avg       0.96      0.96      0.96     77309
+
+
+🔍 Confusion Matrix:
+ [[19853  2543]
+ [  470 54443]]
+
+
+
+🔍 Analisi dei risultati
+✅ Accuracy: 96.1%
+Molto alta, il classificatore distingue bene tra input umani e generati da PRNG.
+
+📊 Classification Report
+Classe	Precision	Recall	F1-score
+0 (human)	0.98	0.89	0.93
+1 (PRNG)	0.96	0.99	0.97
+
+Precision 0 (human): 0.98 → pochi falsi positivi (i PRNG scambiati per umani)
+
+Recall 0 (human): 0.89 → il modello sbaglia qualche umano classificandolo come PRNG
+
+Recall 1 (PRNG): 0.99 → quasi tutti i PRNG vengono riconosciuti correttamente
+
+🔍 Confusion Matrix
+Predicted ↓ / True →	Human (0)	PRNG (1)
+Human (0)	19,853	2,543
+PRNG (1)	470	54,443
+
+Errore principale:
+👉 Alcuni umani (2.5k) sono scambiati per PRNG: può succedere se il loro stile è "regolare" o simile a una distribuzione pseudocasuale.
