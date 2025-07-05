@@ -7,11 +7,13 @@ Keystroke dynamics offer a promising way to distinguish genuine human typing fro
 The central part is a Python-based USB Rubber Ducky emulator that simulates keystroke sequences with realistic timing, following commands in a Ducky Script-like syntax. These synthetic sequences are evaluated by training various classifiers to detect machine input and testing their robustness against adversarial examples.
 
 
+
 Objectives
 - Emulate keystroke injection attacks with realistic delays and jitter
 - Train machine learning classifiers to distinguish machine vs. human typing
 - Use GANs to produce adversarial input that mimics human behavior
 - Evaluate the resilience of keystroke-based liveness detection systems
+
 
 
 Features
@@ -23,9 +25,12 @@ Features
 - GAN-based input generation for adversarial robustness testing
 
 
+
 Research Impact
 
 This work demonstrates that standard classifiers are effective at spotting naive injection attacks—but are vulnerable to adversarial imitation via GANs. It highlights the need for robust liveness detection methods capable of withstanding generative attacks in keystroke-based security systems.
+
+
 
 Disclaimer
 
