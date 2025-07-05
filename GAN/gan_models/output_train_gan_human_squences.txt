@@ -1,0 +1,20 @@
+Caricamento dati...
+ Inizio training GAN...
+ Epoch 1/300 | D loss: 115.1687 | G loss: 68.2095 | D acc: 84.48%
+ Epoch 25/300 | D loss: 122.1902 | G loss: 62.7274 | D acc: 54.83%
+ Epoch 50/300 | D loss: 126.0557 | G loss: 57.3039 | D acc: 49.89%
+ Epoch 75/300 | D loss: 127.3438 | G loss: 55.9888 | D acc: 28.68%
+ Epoch 100/300 | D loss: 120.2727 | G loss: 60.1627 | D acc: 50.39%
+ Epoch 125/300 | D loss: 123.2488 | G loss: 66.5039 | D acc: 46.61%
+ Epoch 150/300 | D loss: 124.6854 | G loss: 58.9675 | D acc: 31.98%
+ Epoch 175/300 | D loss: 118.1120 | G loss: 62.6329 | D acc: 68.46%
+ Epoch 200/300 | D loss: 119.8745 | G loss: 59.2994 | D acc: 45.62%
+ Epoch 225/300 | D loss: 137.0619 | G loss: 57.4098 | D acc: 30.94%
+ Epoch 250/300 | D loss: 127.9865 | G loss: 58.8167 | D acc: 35.99%
+ Epoch 275/300 | D loss: 128.8089 | G loss: 58.2194 | D acc: 35.77%
+ Epoch 300/300 | D loss: 122.0894 | G loss: 64.2947 | D acc: 63.49%
+
+ Training completato e modello salvato!
+ Generatore: gan_models/generator.pth
+ Grafico:    gan_models/training_loss_plot.png
+ Scaling:    gan_models/data_min.npy / data_max.npy
